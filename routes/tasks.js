@@ -2,9 +2,9 @@ const express = require("express");
 const { readFile, writeFile } = require("fs").promises;
 const tasksRouter = express.Router();
 
-const FILE_NAME = "data/tasks.json";
+const FILE_NAME = "./data/tasks.json";
 
-let tasks;
+let tasks = [];
 
 tasksRouter
   .get("/", async (req, res) => {

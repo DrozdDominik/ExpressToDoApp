@@ -16,18 +16,19 @@ ul {
 }
 
 .messageBoxAddTask {
+  margin: 10px;
   color: green;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .messageBoxDeleteTask {
   color: red;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .messageBoxUpdateTask {
   color: blue;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .addBtn {

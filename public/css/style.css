@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.messageBoxAddTask {
+  color: green;
+  font-size: 16px;
+}
+
+.messageBoxDeleteTask {
+  color: red;
+  font-size: 16px;
+}
+
+.messageBoxUpdateTask {
+  color: blue;
+  font-size: 16px;
+}
+
+.addBtn {
+  display: inline-flex;
+  border: none;
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  background-color: royalblue;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+}
+
+.addBtn:hover {
+  background-color: darkblue;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 60px;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 40px;
+  color: greenyellow;
+}
+
+li {
+  font-size: 25px;
+  color: lightseagreen;
+  padding: 10px;
+}
+
+.deleteBtn {
+  display: inline-flex;
+  margin: 10px 10px 10px 0;
+  border: none;
+  font-size: 16px;
+  width: 80px;
+  height: 40px;
+  background-color: rgb(173, 28, 28);
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+}
+
+.deleteBtn:hover {
+  background-color: rgb(77, 5, 5);
+}
+
+.completedBtn {
+  display: inline-flex;
+  margin: 10px;
+  border: none;
+  font-size: 16px;
+  width: 80px;
+  height: 40px;
+  background-color: rgb(25, 202, 18);
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+}
+
+.completedBtn:hover {
+  background-color: rgb(7, 66, 5);
+}
+
+.uncompletedBtn {
+  display: inline-flex;
+  margin: 10px;
+  border: none;
+  font-size: 16px;
+  width: 80px;
+  height: 40px;
+  background-color: rgb(177, 47, 123);
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+}
+
+.uncompletedBtn:hover {
+  background-color: rgb(87, 6, 53);
+}

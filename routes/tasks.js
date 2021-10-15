@@ -17,7 +17,7 @@ tasksRouter
       console.log(err);
     }
 
-    res.send(tasks);
+    res.json(tasks);
   })
 
   .post("/", async (req, res) => {
